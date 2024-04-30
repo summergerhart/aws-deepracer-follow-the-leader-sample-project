@@ -73,7 +73,7 @@ class ActionValues():
        the possible actions that can be sent to servo, pertaining to
        the angle and throttle.
     """
-    FORWARD = 0.3
+    FORWARD = 0.5
     REVERSE = -0.3
     FAST_LEFT = 0.9
     SLOW_LEFT = 0.5
@@ -149,7 +149,7 @@ ACTION_SPACE = {
 # map the speed values. The idea behind this mapping is a lower percentage of maximum speed %
 # should map to a higher speed scale value while calculating the coefficients so that the curve
 # is more flatter and the impact of actual speed values is less for lower max speed %.
-MAX_SPEED_PCT = 0.74
+MAX_SPEED_PCT = 0.90
 
 # Action space mapped to on the vehicle for speed values of 0.8 and 0.4.
 DEFAULT_SPEED_SCALES = [1.0, 0.8]
