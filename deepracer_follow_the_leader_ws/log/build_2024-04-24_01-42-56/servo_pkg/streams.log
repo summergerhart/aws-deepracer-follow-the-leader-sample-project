@@ -1,0 +1,95 @@
+[0.034s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/aws-deepracer-servo-pkg/servo_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg
+[0.223s] -- The C compiler identification is GNU 9.3.0
+[0.408s] -- The CXX compiler identification is GNU 9.3.0
+[0.577s] -- Check for working C compiler: /usr/bin/cc
+[0.803s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.806s] -- Detecting C compiler ABI info
+[1.179s] -- Detecting C compiler ABI info - done
+[1.226s] -- Detecting C compile features
+[1.229s] -- Detecting C compile features - done
+[1.239s] -- Check for working CXX compiler: /usr/bin/c++
+[1.497s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.501s] -- Detecting CXX compiler ABI info
+[1.918s] -- Detecting CXX compiler ABI info - done
+[1.975s] -- Detecting CXX compile features
+[1.978s] -- Detecting CXX compile features - done
+[1.988s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.085s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[2.086s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.050s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[3.190s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.213s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.454s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.541s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.790s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.993s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.998s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.002s] -- Looking for pthread.h
+[4.282s] -- Looking for pthread.h - found
+[4.284s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.515s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.517s] -- Looking for pthread_create in pthreads
+[4.685s] -- Looking for pthread_create in pthreads - not found
+[4.687s] -- Looking for pthread_create in pthread
+[4.909s] -- Looking for pthread_create in pthread - found
+[4.914s] -- Found Threads: TRUE  
+[5.476s] -- Found deepracer_interfaces_pkg: 0.0.1 (/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/share/deepracer_interfaces_pkg/cmake)
+[6.563s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[6.992s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.997s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.999s] -- Configured cppcheck include dirs: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/aws-deepracer-servo-pkg/servo_pkg/include
+[7.000s] -- Configured cppcheck exclude dirs and/or files: 
+[7.004s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.005s] -- Configured cpplint exclude dirs and/or files: 
+[7.008s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.011s] -- Added test 'lint_cmake' to check CMake code style
+[7.014s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.019s] -- Added test 'uncrustify' to check C / C++ code style
+[7.020s] -- Configured uncrustify additional arguments: 
+[7.023s] -- Added test 'xmllint' to check XML markup files
+[7.034s] -- Configuring done
+[7.073s] -- Generating done
+[7.080s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg
+[7.112s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/aws-deepracer-servo-pkg/servo_pkg -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg
+[7.114s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg -- -j2 -l2
+[7.246s] [35m[1mScanning dependencies of target servo_node[0m
+[7.596s] [ 14%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_node.cpp.o[0m
+[35.097s] [ 28%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/bios_version.cpp.o[0m
+[42.650s] [ 42%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/utility.cpp.o[0m
+[44.803s] [ 57%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/led_mgr.cpp.o[0m
+[55.323s] [ 71%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/servo_mgr.cpp.o[0m
+[66.168s] [ 85%] [32mBuilding CXX object CMakeFiles/servo_node.dir/src/pwm.cpp.o[0m
+[74.464s] [100%] [32m[1mLinking CXX executable servo_node[0m
+[76.050s] [100%] Built target servo_node
+[76.083s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg -- -j2 -l2
+[76.206s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg
+[76.238s] -- Install configuration: ""
+[76.246s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/lib/servo_pkg/servo_node
+[76.416s] -- Set runtime path of "/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/lib/servo_pkg/servo_node" to ""
+[76.417s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include
+[76.417s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg
+[76.418s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg/bios_version.hpp
+[76.418s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg/led_mgr.hpp
+[76.419s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg/pwm.hpp
+[76.419s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg/servo_mgr.hpp
+[76.420s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/include/servo_pkg/utility.hpp
+[76.420s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg//launch
+[76.421s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg//launch/servo_pkg_launch.py
+[76.422s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/ament_index/resource_index/package_run_dependencies/servo_pkg
+[76.422s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/ament_index/resource_index/parent_prefix_path/servo_pkg
+[76.423s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.sh
+[76.423s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/environment/ament_prefix_path.dsv
+[76.423s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/environment/path.sh
+[76.424s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/environment/path.dsv
+[76.424s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/local_setup.bash
+[76.424s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/local_setup.sh
+[76.425s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/local_setup.zsh
+[76.425s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/local_setup.dsv
+[76.425s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/package.dsv
+[76.426s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/ament_index/resource_index/packages/servo_pkg
+[76.426s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_include_directories-extras.cmake
+[76.426s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/cmake/ament_cmake_export_dependencies-extras.cmake
+[76.427s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig.cmake
+[76.429s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/cmake/servo_pkgConfig-version.cmake
+[76.443s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/servo_pkg/share/servo_pkg/package.xml
+[76.444s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg' returned '0': AMENT_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/deepracer_interfaces_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/servo_pkg

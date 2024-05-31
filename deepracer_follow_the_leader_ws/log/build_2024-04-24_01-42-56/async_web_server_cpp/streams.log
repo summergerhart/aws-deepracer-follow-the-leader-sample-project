@@ -1,0 +1,87 @@
+[0.257s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp': /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp
+[0.723s] -- The C compiler identification is GNU 9.3.0
+[1.054s] -- The CXX compiler identification is GNU 9.3.0
+[1.248s] -- Check for working C compiler: /usr/bin/cc
+[1.474s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.633s] -- Detecting C compiler ABI info
+[2.010s] -- Detecting C compiler ABI info - done
+[2.054s] -- Detecting C compile features
+[2.056s] -- Detecting C compile features - done
+[2.069s] -- Check for working CXX compiler: /usr/bin/c++
+[2.321s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.324s] -- Detecting CXX compiler ABI info
+[2.726s] -- Detecting CXX compiler ABI info - done
+[2.771s] -- Detecting CXX compile features
+[2.772s] -- Detecting CXX compile features - done
+[2.786s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.054s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[3.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.450s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system regex filesystem 
+[5.648s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[6.015s] -- Configuring done
+[6.047s] -- Generating done
+[6.052s] CMake Warning:
+[6.053s]   Manually-specified variables were not used by the project:
+[6.053s] 
+[6.053s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[6.053s] 
+[6.054s] 
+[6.057s] -- Build files have been written to: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp
+[6.074s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp' returned '0': /usr/bin/cmake /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/async_web_server_cpp -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp
+[6.079s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp -- -j2 -l2
+[6.205s] [35m[1mScanning dependencies of target async_web_server_cpp[0m
+[6.264s] [  8%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_server.cpp.o[0m
+[6.271s] [ 16%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_connection.cpp.o[0m
+[29.863s] [ 25%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_parser.cpp.o[0m
+[30.277s] [ 33%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_reply.cpp.o[0m
+[37.046s] [ 41%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request_handler.cpp.o[0m
+[49.682s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/async_web_server_cpp/src/http_reply.cpp:[m[K In member function ‘[01m[Kbool async_web_server_cpp::FilesystemHttpRequestHandler::operator()(const async_web_server_cpp::HttpRequest&, boost::shared_ptr<async_web_server_cpp::HttpConnection>, const char*, const char*)[m[K’:
+[49.682s] [01m[K/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/async_web_server_cpp/src/http_reply.cpp:355:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+[49.683s]   355 | [01;35m[K}[m[K
+[49.683s]       | [01;35m[K^[m[K
+[58.457s] [ 50%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_connection.cpp.o[0m
+[67.881s] [ 58%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_request_handler.cpp.o[0m
+[79.414s] [ 66%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/websocket_message.cpp.o[0m
+[85.469s] [ 75%] [32mBuilding CXX object CMakeFiles/async_web_server_cpp.dir/src/http_request.cpp.o[0m
+[93.920s] [ 83%] [32m[1mLinking CXX shared library libasync_web_server_cpp.so[0m
+[94.903s] [ 83%] Built target async_web_server_cpp
+[94.934s] [35m[1mScanning dependencies of target test_web_server[0m
+[94.977s] [ 91%] [32mBuilding CXX object test/CMakeFiles/test_web_server.dir/test_web_server.cpp.o[0m
+[106.098s] [100%] [32m[1mLinking CXX executable test_web_server[0m
+[106.724s] [100%] Built target test_web_server
+[106.760s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp' returned '0': /usr/bin/cmake --build /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp -- -j2 -l2
+[107.067s] Invoking command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp
+[107.099s] -- Install configuration: ""
+[107.101s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.sh
+[107.102s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/library_path.dsv
+[107.104s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/package_run_dependencies/async_web_server_cpp
+[107.105s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/parent_prefix_path/async_web_server_cpp
+[107.107s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.sh
+[107.108s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/ament_prefix_path.dsv
+[107.110s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.sh
+[107.112s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/environment/path.dsv
+[107.113s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.bash
+[107.114s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.sh
+[107.116s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.zsh
+[107.117s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/local_setup.dsv
+[107.119s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/package.dsv
+[107.120s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/ament_index/resource_index/packages/async_web_server_cpp
+[107.122s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_dependencies-extras.cmake
+[107.123s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_include_directories-extras.cmake
+[107.124s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/ament_cmake_export_libraries-extras.cmake
+[107.126s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig.cmake
+[107.127s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/cmake/async_web_server_cppConfig-version.cmake
+[107.128s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/share/async_web_server_cpp/package.xml
+[107.130s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/lib/libasync_web_server_cpp.so
+[107.307s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp
+[107.309s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_header.hpp
+[107.311s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request.hpp
+[107.313s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request_handler.hpp
+[107.313s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_request_parser.hpp
+[107.315s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_server.hpp
+[107.315s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_connection.hpp
+[107.316s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_message.hpp
+[107.316s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/websocket_request_handler.hpp
+[107.327s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_connection.hpp
+[107.328s] -- Installing: /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/install/async_web_server_cpp/include/async_web_server_cpp/http_reply.hpp
+[107.329s] Invoked command in '/root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp' returned '0': /usr/bin/cmake --install /root/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/deepracer_follow_the_leader_ws/build/async_web_server_cpp
