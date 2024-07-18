@@ -1,5 +1,19 @@
 # AWS DeepRacer Follow the Leader (FTL) Sample Project
 
+## Quick Start
+
+1. Open two terminals and switch to root user in both:
+
+        sudo su
+
+1. In the first terminal, run FTL:
+
+        ~/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/installers/run_ftl_application.sh
+
+1. In the second terminal, enable FTL mode:
+
+        ~/deepracer_ws/aws-deepracer-follow-the-leader-sample-project/installers/enable_ftl_mode.sh
+
 ## Overview
 
 The AWS DeepRacer Follow the Leader (FTL) sample project is an sample application built on top of the existing AWS DeepRacer application, which uses an object-detection machine learning model through which the AWS DeepRacer device can identify and follow a person.
